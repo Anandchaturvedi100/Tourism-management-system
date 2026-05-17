@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tourism Management System</title>
+
+  <!-- GOOGLE FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+
+  <!-- AOS ANIMATION -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- SWIPER -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="Index.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+
+  <nav id="navbar">
+    <div class="logo">TravelX</div>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#">Home</a></li>
+      <li><a href="#destinations">Destinations</a></li>
+      <li><a href="#packages">Packages</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="menu-btn" id="menuBtn">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Explore The World With <span>TravelX</span></h1>
+
+      <p>
+        Discover amazing destinations, luxury travel experiences,
+        adventure tours, and unforgettable journeys with our
+        Tourism Management System.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#" class="btn primary-btn">Explore Tours</a>
+        <a href="#" class="btn secondary-btn">Book Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- DESTINATIONS -->
+
+  <section id="destinations">
+
+    <div class="title" data-aos="fade-up">
+      <h2>Popular Destinations</h2>
+      <p>Choose your next dream destination</p>
+    </div>
+
+    <div class="cards">
+
+      <div class="card" data-aos="zoom-in">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1200&auto=format&fit=crop">
+
+        <div class="card-content">
+          <h3>Switzerland</h3>
+          <p>Beautiful mountains and nature views.</p>
+
+          <div class="stars">
+            ★★★★★
+          </div>
+
+          <a href="#" class="btn primary-btn">Explore</a>
+        </div>
+      </div>
+
+      <div class="card" data-aos="zoom-in">
+        <img src="https://images.unsplash.com/photo-1493558103817-58b2924bce98?q=80&w=1200&auto=format&fit=crop">
+
+        <div class="card-content">
+          <h3>Maldives</h3>
+          <p>Luxury beaches and water villas.</p>
+
+          <div class="stars">
+            ★★★★★
+          </div>
+
+          <a href="#" class="btn primary-btn">Explore</a>
+        </div>
+      </div>
+
+      <div class="card" data-aos="zoom-in">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&auto=format&fit=crop&q=80">
+
+        <div class="card-content">
+          <h3>Paris</h3>
+          <p>Experience romance and luxury lifestyle.</p>
+
+          <div class="stars">
+            ★★★★★
+          </div>
+
+          <a href="#" class="btn primary-btn">Explore</a>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- COUNTERS -->
+
+  <section class="counter-section">
+
+    <div class="counter-wrapper">
+
+      <div class="counter-box" data-aos="fade-up">
+        <i class="fa-solid fa-users"></i>
+        <div class="counter" data-target="5000">0</div>
+        <p>Happy Travelers</p>
+      </div>
+
+      <div class="counter-box" data-aos="fade-up">
+        <i class="fa-solid fa-location-dot"></i>
+        <div class="counter" data-target="150">0</div>
+        <p>Destinations</p>
+      </div>
+
+      <div class="counter-box" data-aos="fade-up">
+        <i class="fa-solid fa-plane"></i>
+        <div class="counter" data-target="1200">0</div>
+        <p>Tours Completed</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- TOUR PACKAGES -->
+
+  <section id="packages">
+
+    <div class="title" data-aos="fade-up">
+      <h2>Tour Packages</h2>
+      <p>Best travel experiences for you</p>
+    </div>
+
+    <div class="swiper mySwiper">
+
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200&auto=format&fit=crop">
+
+          <div class="slide-content">
+            <h3>Adventure Tour</h3>
+            <p>Mountain climbing and trekking package.</p>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=1200&auto=format&fit=crop">
+
+          <div class="slide-content">
+            <h3>Beach Vacation</h3>
+            <p>Relax and enjoy tropical beaches.</p>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=1200&auto=format&fit=crop">
+
+          <div class="slide-content">
+            <h3>Historical Tour</h3>
+            <p>Explore historical places around world.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- GALLERY -->
+
+  <section id="gallery">
+
+    <div class="title" data-aos="fade-up">
+      <h2>Travel Gallery</h2>
+      <p>Memories from around the world</p>
+    </div>
+
+    <div class="gallery">
+
+      <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=1200&auto=format&fit=crop">
+      <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=1200&auto=format&fit=crop">
+      <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?q=80&w=1200&auto=format&fit=crop">
+      <img src="https://images.unsplash.com/photo-1527631746610-bca00a040d60?q=80&w=1200&auto=format&fit=crop">
+
+    </div>
+
+  </section>
+
+  <!-- TESTIMONIAL -->
+
+  <section>
+
+    <div class="title" data-aos="fade-up">
+      <h2>What Travelers Say</h2>
+    </div>
+
+    <div class="testimonial" data-aos="zoom-in">
+
+      <img src="https://randomuser.me/api/portraits/women/44.jpg">
+
+      <p>
+        "Amazing experience with TravelX. Everything was
+        perfectly managed and the destinations were beautiful."
+      </p>
+
+      <h3>- Sarah Johnson</h3>
+
+    </div>
+
+  </section>
+
+  <!-- NEWSLETTER -->
+
+  <section id="contact">
+
+    <div class="newsletter" data-aos="fade-up">
+
+      <h2>Subscribe For Travel Updates</h2>
+
+      <p>
+        Get latest offers and tour packages directly in your inbox.
+      </p>
+
+      <div style="margin-top:20px;">
+        <input type="email" placeholder="Enter Your Email">
+
+        <button>Subscribe</button>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <h2>TravelX Tourism Management System</h2>
+
+    <div class="socials">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-youtube"></i>
+    </div>
+
+    <p>© 2026 All Rights Reserved</p>
+
+  </footer>
+
+  <!-- SCRIPTS -->
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="index.js"></script>
+
+</body>
+</html>
