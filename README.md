@@ -3,7 +3,7 @@
 A sleek, modern, and fully responsive front-end web application designed to provide users with an immersive travel planning experience. This platform allows users to explore premium global destinations, browse tailored vacation packages, view curated milestones, and subscribe to the latest travel offers.
 
  🚀 Live Demo
- 🔗 **[Live Project Link](YOUR_NETLIFY_OR_GITHUB_PAGES_LINK_HERE)** *(Apna live link yahan dalein agar hosted hai, nahi to ye line hata sakte hain)*
+ 🔗 **[Live Project Link](https://tourism-management-system-6lvd-gjcdyojhw-tourism-management.vercel.app)** *(Apna live link yahan dalein agar hosted hai, nahi to ye line hata sakte hain)*
 
 ---
 
