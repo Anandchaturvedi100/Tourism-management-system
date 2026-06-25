@@ -3,13 +3,13 @@
 A sleek, modern, and fully responsive front-end web application designed to provide users with an immersive travel planning experience. This platform allows users to explore premium global destinations, browse tailored vacation packages, view curated milestones, and subscribe to the latest travel offers.
 
  🚀 Live Demo
- 🔗 **[Live Project Link](https://tourism-management-system-6lvd-gjcdyojhw-tourism-management.vercel.app)** *(Apna live link yahan dalein agar hosted hai, nahi to ye line hata sakte hain)*
+ 🔗 **[Live Project Link](https://tourism-management-system-6lvd-gjcdyojhw-tourism-management.vercel.app)
 
 ---
 
  Features
 
-* Visual Hero Section:** A high-impact landing page area with a dark overlay and clear Call-to-Actions (`Explore Tours` & `Book Now`).
+* Visual Hero Section:** A high-impact landing page area with a dark overlay and clear Call-to-Actions
 * Popular Destinations Gallery:** Grid layout showcasing top global spots (Switzerland, Maldives, Paris) complete with interactive 5-star user ratings.
 * Live Dynamic Counters:** Displays impressive brand milestones to build user trust:
   * 👥 **5,000+** Happy Travelers
@@ -34,7 +34,7 @@ A sleek, modern, and fully responsive front-end web application designed to prov
 ---
 
 Responsive Layout
-The project is built with **Responsive Web Design (RWD)** principles, ensuring that the navigation menu, destination grids, and layout components scale flawlessly across all devices:
+The project is built with **Responsive Web Design (RWD) principles, ensuring that the navigation menu, destination grids, and layout components scale flawlessly across all devices:
 * Desktop / Laptops
 * Tablets / iPads
 * Mobile Devices
@@ -42,5 +42,5 @@ The project is built with **Responsive Web Design (RWD)** principles, ensuring t
 ---
 
  Author
-* Anand Kumar Chaturvedi**
-* GitHub: [@your-username](https://github.com/your-username)
+* Anand Kumar Chaturvedi
+* GitHub: [@your-username](https://github.com/Anandchaturvedi100)
